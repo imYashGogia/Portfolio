@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.main {
+  font-family: "Poppins", sans-serif;
+}
+/* Default height for small devices */
+#intro-example {
+  height: 750px;
+}
+
+/* Height for devices larger than 992px */
+@media (min-width: 992px) {
+  #intro-example {
+    height: 950px;
+  }
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.blink {
+  animation: blink 0.5s infinite;
+}
+@keyframes blink {
+  to {
+    opacity: 0;
+  }
+}
+#word {
+  padding-left: 7px;
+}
+.code-font {
+  font-family: monospace !important;
+}
+nav ul li:hover {
+  background: #555;
+  border-radius: 5px;
+}
+.box-shadow {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#contact-sec a:hover {
+  transform: translateY(-8px);
+}
+/*--For mobile devices--*/
+@media (max-width: 768px) {
+  .card-size {
+    width: 20rem;
+  }
+}
+
+.bg-class {
+  background-image: url("https://i.pinimg.com/564x/bf/62/03/bf6203b5fbcd1f2b0a96b30c424dbf3c.jpg");
+}
+/* next size - tablet */
+@media (min-width: 768px) {
+  .bg-class {
+    background-image: url("https://i.pinimg.com/564x/bf/62/03/bf6203b5fbcd1f2b0a96b30c424dbf3c.jpg");
+  }
+  .card-size {
+    width: 22rem;
+  }
+}
+
+/* next size - tablet landscape and it covers desktop */
+@media (min-width: 1024px) {
+  .bg-class {
+    background-image: url("https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  }
+  .card-size {
+    width: 25rem;
+  }
+}
+
+/* next size - larger desktops */
+@media (min-width: 1280px) {
+  .bg-class {
+    background-image: url("https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  }
+  .card-size {
+    width: 25rem;
+  }
+}
+/* project bg image */
+.project-bg {
+  background-image: url("./Assets/SL_042620_30310_36.jpg");
+  /* background-image: url("https://images.unsplash.com/photo-1508615121316-fe792af62a63?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); */
+}
+
+.img-size {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
