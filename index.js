@@ -6,7 +6,6 @@ const words = [
 ];
 let i = 0;
 let timer;
-
 function typingEffect() {
   let word = words[i].split("");
   var loopTyping = function () {
@@ -40,12 +39,24 @@ function deletingEffect() {
   };
   loopDeleting();
 }
-
 typingEffect();
 
+// hamburger
 $(".js-scroll-trigger").click(function () {
   $(".navbar-collapse").collapse("hide");
 });
 $(document).ready(function () {
   $(".toast").toast("show");
+});
+
+
+// scroll to top functionality
+const scrollUp = document.querySelector("#scroll-up");
+
+scrollUp.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
 });

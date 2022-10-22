@@ -12,7 +12,13 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.css" rel="stylesheet" />
   <!-- MDB -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!--  For AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Yash's PortFolio</title>
   <link rel="icon" type="image/x-icon" href="./Assets/laptop-code-solid.svg">
 
@@ -64,32 +70,37 @@
                 <h3 class="blink">|</h3>
               </div>
               <br>
-              <a class="btn btn-outline-light btn-lg m-2 bg-danger" href="mailto:yashgogia2001@gmail.com"
-                role="button">I
+              <a class="btn btn-outline-light btn m-2 bg-danger" href="mailto:yashgogia2001@gmail.com" role="button">I
                 want a Website</a>
-              <a class="btn btn-outline-light btn-lg m-2" target="_blank" href="https://linkedin.com/in/imyashgogia"
+              <a class="btn btn-outline-light btn m-2" target="_blank" href="https://linkedin.com/in/imyashgogia"
                 role="button">I
                 want
                 to Hire</a>
+              <section id="section05" class="demo pt-5">
+                <a href="#about-sec"><span></span>Scroll</a>
+              </section>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- home-sec ends -->
+    <i class="scroll-up" id="scroll-up"><img data-aos="fade-up"
+        src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8ZGVmcz4KICA8Y2xpcFBhdGggaWQ9ImEiPgogICA8cGF0aCBkPSJtMTM5LjIxIDEzOS4yMWg0NzMuNTh2NDczLjU4aC00NzMuNTh6Ii8+CiAgPC9jbGlwUGF0aD4KIDwvZGVmcz4KIDxwYXRoIGQ9Im03NTIgMzc2YzAgMTM0LjMzLTcxLjY2NCAyNTguNDYtMTg4IDMyNS42Mi0xMTYuMzQgNjcuMTY4LTI1OS42NiA2Ny4xNjgtMzc2IDAtMTE2LjM0LTY3LjE2NC0xODgtMTkxLjI5LTE4OC0zMjUuNjJzNzEuNjY0LTI1OC40NiAxODgtMzI1LjYyYzExNi4zNC02Ny4xNjggMjU5LjY2LTY3LjE2OCAzNzYgMCAxMTYuMzQgNjcuMTY0IDE4OCAxOTEuMjkgMTg4IDMyNS42MiIgZmlsbD0iI2ZmZiIvPgogPGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj4KICA8cGF0aCBkPSJtMzc2IDEzOS4yMWMtMTMwLjc3IDAtMjM2Ljc5IDEwNi4wMS0yMzYuNzkgMjM2Ljc5IDAgMTMwLjc3IDEwNi4wMiAyMzYuNzkgMjM2Ljc5IDIzNi43OXMyMzYuNzktMTA2LjAyIDIzNi43OS0yMzYuNzljMC4wMDM5MDctMTMwLjc4LTEwNi4wMS0yMzYuNzktMjM2Ljc5LTIzNi43OXptMTI2LjY4IDMxMS4zNC0xMjYuNjgtMTExLjI4LTEyNi42OCAxMTEuMjgtMTguNzU0LTIxLjM0OCAxNDUuNDMtMTI3Ljc1IDE0NS40NCAxMjcuNzV6Ii8+CiA8L2c+Cjwvc3ZnPgo="
+        class="socicon up-arrow img-fluid" alt="scroll-up" /></i>
     <!-- about sec -->
     <div id="about-sec" class="bg-dark text-white pt-5">
       <div class="container pt-3">
-        <h1 class="text-center ">Who <span class="text-danger">am I?</span> </h1>
-        <p class="text-center border-bottom border-danger fst-italic"> <span class="text-danger">
+        <h1 class="text-center " data-aos="fade-up">Who <span class="text-danger">am I?</span> </h1>
+        <p class="text-center border-bottom border-danger fst-italic" data-aos="fade-up"> <span class="text-danger">
             &#60; </span> one Who Measures programming progress by lines of code <span
             class="text-danger">&#47;&#62;</span></p>
 
         <div class="row text-center mx-auto pt-2">
-          <div class="col-lg-4 col-sm-12" id="img-sec">
+          <div class="col-lg-4 col-sm-12" id="img-sec" data-aos="fade-right">
             <img src="./Assets/final.jpg" class="img-fluid img-thumbnail" alt="port-img">
           </div>
-          <div class="col-lg col-sm-12 pt-4" id="intro-sec">
+          <div class="col-lg col-sm-12 pt-4" id="intro-sec" data-aos="fade-up">
             <p> I am <span class="text-danger"> Yash Gogia</span>,<br> from New Delhi, India. Currently, in Final year
               Pursuing <span class="text-danger">BCA</span> from <span class="text-danger">IITM</span> college which is
               affiliated to Guru Gobind Singh Indraprastha University. A Full Stack Developer who specializes in Web
@@ -102,7 +113,7 @@
                 stack</span> , but still exploring other technologies and frameworks
               that catch my interest! if you're looking for a developer to add to your team, I'd love to hear from you!
             </p>
-            <a href="./Assets/soon.jpg" download=""><button type="button"
+            <a href="./Assets/Resume.pdf" download=""><button type="button" data-aos="flip-up"
                 class="btn btn-primary btn-outline-light btn-lg m-2"><i class="fa-solid fa-download"></i> Download
                 CV</button></a>
           </div>
@@ -114,7 +125,7 @@
           <div class="col">
             <figure>
               <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/html5-512.png"
-                class="img-size" alt="html-img">
+                data-aos="flip-left" class="img-size" alt="html-img">
               <figcaption class="text-center">
                 HTML
               </figcaption>
@@ -122,8 +133,8 @@
           </div>
           <div class="col">
             <figure>
-              <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png" class="img-size"
-                alt="css-img">
+              <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png" data-aos="flip-left"
+                class="img-size" alt="css-img">
               <figcaption class="text-center">
                 CSS
               </figcaption>
@@ -131,8 +142,8 @@
           </div>
           <div class="col">
             <figure>
-              <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png" class="img-size"
-                alt="js-img">
+              <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png" data-aos="flip-left"
+                class="img-size" alt="js-img">
               <figcaption class="text-center">
                 JavaScript
               </figcaption>
@@ -140,8 +151,8 @@
           </div>
           <div class="col">
             <figure>
-              <img src="https://styles.redditmedia.com/t5_2su6s/styles/communityIcon_4g1uo0kd87c61.png" class="img-size"
-                alt="react-img">
+              <img src="https://styles.redditmedia.com/t5_2su6s/styles/communityIcon_4g1uo0kd87c61.png"
+                data-aos="flip-left" class="img-size" alt="react-img">
               <figcaption class="text-center">
                 React
               </figcaption>
@@ -149,8 +160,8 @@
           </div>
           <div class="col">
             <figure>
-              <img src="https://cdn0.iconfinder.com/data/icons/designer-skills/128/node-js-512.png" class="img-size"
-                alt="nodejs-img">
+              <img src="https://cdn0.iconfinder.com/data/icons/designer-skills/128/node-js-512.png" data-aos="flip-left"
+                class="img-size" alt="nodejs-img">
               <figcaption class="text-center">
                 NodeJS
               </figcaption>
@@ -158,8 +169,8 @@
           </div>
           <div class="col">
             <figure>
-              <img src="https://cdn.iconscout.com/icon/free/png-256/mongodb-5-1175140.png" class="img-size"
-                alt="mongodb-img">
+              <img src="https://cdn.iconscout.com/icon/free/png-256/mongodb-5-1175140.png" data-aos="flip-left"
+                class="img-size" alt="mongodb-img">
               <figcaption class="text-center">
                 MongoDB
               </figcaption>
@@ -169,7 +180,7 @@
             <figure>
               <img
                 src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png"
-                class="img-size" alt="mysql-img">
+                data-aos="flip-left" class="img-size" alt="mysql-img">
               <figcaption class="text-center">
                 MySQL
               </figcaption>
@@ -179,12 +190,116 @@
       </div>
     </div>
     <!-- about sec ends -->
+    <!-- Certificate sec -->
+    <div id="Certificate-sec">
+      <div class="p-4 text-center bg-image Certificate-bg">
+        <div class="container mt-5">
+          <h1 class="text-center " data-aos="fade-up">Here are some of My<span class="text-danger"> Certificates!</span>
+          </h1>
+          <p class="text-center border-bottom border-danger fst-italic" data-aos="fade-up"> <span class="text-danger">
+              &#60; </span>Just a <span class="fw-bold"> philomath</span> & want to explore all fields.<span
+              class="text-danger">&#47;&#62;</span></p>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" data-aos="fade-up" >
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner container">
+            <div class="carousel-item active ">
+              <div class="row">
+                <div class="col size" style="width: 25rem;">
+                  <img src="/Assets/certificates/MERN.jpg" class="card-img-top hover-zoom" alt="...">
+
+                </div>
+                <div class="col size" style="width: 25rem;">
+                  <img src="/Assets/certificates/web.jpg" class="card-img-top hover-zoom" alt="...">
+
+                </div>
+                <div class="col size" style="width: 25rem;">
+                  <img src="/Assets/certificates/flutter.jpg" class="card-img-top hover-zoom" alt="...">
+
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col" style="width: 25rem;">
+                  <img src="/Assets/certificates/css.jpg" class="card-img-top " alt="...">
+
+                </div>
+                <div class="col" style="width: 25rem;">
+                  <img src="/Assets/certificates/Responsive Web.png" class="card-img-top" alt="...">
+
+                </div>
+                <div class="col" style="width: 25rem;">
+                  <img src="/Assets/certificates/IITM-Rubicon.jpg" class="card-img-top" alt="...">
+
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col" style="width: 25rem;">
+                  <img src="/Assets/certificates/ML.jpg" class="card-img-top " alt="...">
+
+                </div>
+                <div class="col" style="width: 25rem;">
+                  <img src="/Assets/certificates/python.jpg" class="card-img-top" alt="...">
+
+                </div>
+                <div class="col" style="width: 25rem;">
+                  <img src="/Assets/certificates/IITM-Barclays.png" class="card-img-top" alt="...">
+
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col" style="width: 25rem;">
+                  <img src="/Assets/certificates/Powerpoint.JPG" class="card-img-top " alt="...">
+
+                </div>
+                <div class="col" style="width: 25rem;">
+                  <img src="/Assets/certificates/Presentation.jpg" class="card-img-top" alt="...">
+
+                </div>
+                <div class="col" style="width: 25rem;">
+                  <img src="/Assets/certificates/Excel.jpg" class="card-img-top" alt="...">
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Certificate sec ends -->
     <!-- project sec -->
     <div id="project-sec">
       <div class="p-4 text-center bg-image project-bg">
         <div class="container mt-5">
-          <h1 class="text-center ">Here are some of My<span class="text-danger"> Projects!</span> </h1>
-          <p class="text-center border-bottom border-danger fst-italic"> <span class="text-danger">
+          <h1 class="text-center text-white" data-aos="fade-up">Here are some of My<span class="text-danger">
+              Projects!</span>
+          </h1>
+          <p class="text-center border-bottom border-danger fst-italic text-white" data-aos="fade-up"> <span
+              class="text-danger">
               &#60; </span>I design and develop experiences that make people's lives <span
               class="fw-bold">simple.</span> <span class="text-danger">&#47;&#62;</span></p>
           <div class="row text-center">
@@ -192,7 +307,7 @@
               <div class="card hover-zoom card-size mx-auto">
                 <img
                   src="https://static.vecteezy.com/system/resources/previews/001/871/349/non_2x/illustration-of-shopping-and-spending-money-with-e-commerce-apps-own-your-own-shop-with-e-commerce-find-the-right-item-with-online-shops-landing-page-template-for-web-websites-site-banner-flyer-free-vector.jpg"
-                  class="card-img-top img-thumbnail" alt="e-com-img">
+                  data-aos="zoom-in" class="card-img-top img-thumbnail" alt="e-com-img">
                 <div class="card-body">
                   <p class="card-text"><span class="fw-bolder">Launching Soon!!</span> <br> <span class="text-danger">
                       &#60; </span> <span class="fw-bold">E-commerce Website </span><span
@@ -204,7 +319,8 @@
             <div class="col mt-4">
               <div class="card hover-zoom card-size mx-auto">
                 <a href="https://imyashgogia.github.io/Survey-Form/">
-                  <img src="./Assets/form.png" class="card-img-top img-thumbnail" alt="Survey-Form-img">
+                  <img src="./Assets/form.png" data-aos="zoom-in-up" class="card-img-top img-thumbnail"
+                    alt="Survey-Form-img">
                   <div class="card-body">
                     <p class="card-text"><span class="text-danger">
                         &#60; </span> <span class="fw-bold">Basic Survey Form </span> <span
@@ -217,7 +333,7 @@
             <div class="col mt-4">
               <div class="card hover-zoom card-size mx-auto">
                 <a href="https://imyashgogia.github.io/Product-Landing-Page/"><img src="./Assets/landingpage.png"
-                    class="card-img-top img-thumbnail" alt="product-landing-img">
+                    data-aos="zoom-in" class="card-img-top img-thumbnail" alt="product-landing-img">
                   <div class="card-body">
                     <p class="card-text"><span class="text-danger">
                         &#60; </span> <span class="fw-bold">Product Landing Page </span><span
@@ -230,7 +346,7 @@
             <div class="col mt-4">
               <div class="card hover-zoom card-size mx-auto">
                 <a href="https://imyashgogia.github.io/Tribute-Page/"><img src="./Assets/tributepage.png"
-                    class="card-img-top img-thumbnail" alt="tribute-page-img">
+                    data-aos="zoom-in-up" class="card-img-top img-thumbnail" alt="tribute-page-img">
                   <div class="card-body">
                     <p class="card-text"><span class="text-danger">
                         &#60; </span> <span class="fw-bold">Tribute page</span> <span
@@ -242,7 +358,7 @@
             <div class="col mt-4">
               <div class="card hover-zoom card-size mx-auto">
                 <a href="https://imyashgogia.github.io/real-estate-landing-page/"><img src="./Assets/realestate.png"
-                    class="card-img-top img-thumbnail" alt="real-estate-img">
+                    data-aos="zoom-in" class="card-img-top img-thumbnail" alt="real-estate-img">
                   <div class="card-body">
                     <p class="card-text"><span class="text-danger">
                         &#60; </span><span class="fw-bold"> Real Estate Webpage </span><span
@@ -262,30 +378,30 @@
       <footer class="bg-dark text-center text-white">
         <div class="container pt-4">
           <section class="mb-4">
-            <h3>Let's <span class="text-danger"> Connect & work</span> together...</h3>
-            <p class="text-center border-bottom border-danger fst-italic"> <span class="text-danger">
+            <h3 data-aos="fade-up">Let's <span class="text-danger"> Connect & work</span> together...</h3>
+            <p class="text-center border-bottom border-danger fst-italic" data-aos="fade-up"> <span class="text-danger">
                 &#60; </span>How do you take your coffee? <span class="text-danger">&#47;&#62;</span></p>
             <div class="container row text-center">
-              <div class="col">
+              <div class="col" data-aos="fade-up">
                 <a class="btn btn-primary mt-1" style="background-color: #FBBC05;" href="mailto:yashgogia2001@gmail.com"
                   role="button"><i class="fa-solid fa-at me-1"></i>Email</a>
               </div>
-              <div class="col">
+              <div class="col" data-aos="fade-up">
                 <a class="btn btn-primary mt-1" style="background-color: #0082ca;;"
                   href="https://linkedin.com/in/imyashgogia" role="button"><i
                     class="fa-brands fa-linkedin me-1"></i>Linkedin</a>
               </div>
-              <div class="col">
+              <div class="col" data-aos="fade-up">
                 <a class="btn btn-primary mt-1" style="background-color: #55acee;"
                   href="https://twitter.com/imYashGogia" role="button"><i
                     class="fa-brands fa-twitter me-1"></i>Twitter</a>
               </div>
-              <div class="col">
+              <div class="col" data-aos="fade-up">
                 <a class="btn btn-primary mt-1" style="background-color: #3b5998;"
                   href="https://www.facebook.com/imyashgogia/" role="button"><i
                     class="fa-brands fa-facebook me-1"></i>Facebook</a>
               </div>
-              <div class="col">
+              <div class="col" data-aos="fade-up">
                 <a class="btn btn-primary mt-1" style="background-color: #ac2bac;"
                   href="https://www.instagram.com/imyashgogia/" role="button"><i
                     class="fa-brands fa-instagram me-1"></i>Instagram</a>
@@ -309,7 +425,9 @@
     </div>
     <!-- footer or contact sec ends -->
     <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script type="text/javascript">
+      AOS.init();
     </script>
   </div>
 </body>
