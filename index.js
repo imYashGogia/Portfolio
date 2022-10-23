@@ -49,7 +49,6 @@ $(document).ready(function () {
   $(".toast").toast("show");
 });
 
-
 // scroll to top functionality
 const scrollUp = document.querySelector("#scroll-up");
 
@@ -60,3 +59,9 @@ scrollUp.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+if (screen.width >= 992) {
+  $("#certificate").show();
+} else {
+  $("#certificate").hide();
+}
