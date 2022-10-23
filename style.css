@@ -111,8 +111,7 @@ nav ul li:hover {
   object-fit: cover;
 }
 .Certificate-bg {
-  background-image: url("./Assets/SL_042620_30310_36.jpg");
-  /* background-image: url("./Assets/SL_042620_30310_36.jpg"); */
+  background-image: url("./Assets/Backgrounds/certificate-sec-bg.jpg");
 }
 .scroll-up {
   position:fixed;
