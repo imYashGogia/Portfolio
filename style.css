@@ -191,3 +191,6 @@ nav ul li:hover {
 .hover-zoom img:hover{
   scale: 1.05;
 }
+.btn-hover:hover{
+  transform: translateY(-8px);
+}
