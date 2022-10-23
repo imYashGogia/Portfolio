@@ -60,8 +60,8 @@ scrollUp.addEventListener("click", () => {
   });
 });
 
-if (screen.width >= 992) {
-  $("#certificate").show();
-} else {
-  $("#certificate").hide();
-}
+// if (screen.width >= 992) {
+//   $("#certificate").show();
+// } else {
+//   $("#certificate").hide();
+// }
