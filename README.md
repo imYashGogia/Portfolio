@@ -6,8 +6,7 @@ This repository contains my portfolio project, showcasing my skills, experience,
 
 <a href="https://imyashgogia.github.io/Portfolio/"> <img src="https://github.com/imYashGogia/Portfolio/blob/main/Assets/Readme_img/img1.png"> </a>
 <a href="https://imyashgogia.github.io/Portfolio/"> <img src="https://github.com/imYashGogia/Portfolio/blob/main/Assets/Readme_img/img2.png"> </a>
-<br>
-<h1>Table Of Content:
+<br>Table Of Content:
 <li>Introduction
 <li>Features
 <li>Technology Used
