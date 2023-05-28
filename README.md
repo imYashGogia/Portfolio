@@ -1,26 +1,45 @@
 # Portfolio
 Portfolio Webpage
+<hr>
 This repository contains my portfolio project, showcasing my skills, experience, and projects. It serves as an online resume and provides a comprehensive overview of my abilities as a Developer.
 
 
-<a href="https://www.youtube.com/playlist?list=PL7zl8TDRnbulNEA-59W7wWgCWE8LEOD6h"> <img src="https://github.com/ShapeAI/PYTHON-AND-DATA-ANALYTICS/blob/main/machine%20learning.png"> </a>
-<br>I got to have hands on experience on:
-<li>Python
-<li>Machine Learning
-<li>Tensorflow
-<br>during these 7 days, and everything was explained from the very basics so that
-anyone with zero experience on programming can learn.
-I enjoyed these 7 days, you can as well. To register for next free 7 days bootcamp, visit:
-<a href="https://www.Devtown.in"> www.Devtown.in</a>
-or follow DevTown on:
-<li><a href=
-"https://www.linkedin.com/company/devtown-in/">LinkedIn</a>
-<li><a href=
-"https://www.instagram.com/devtown.in/">Instagram</a>
-<li><a
-href=
-"https://www.youtube.com/c/DevTownIndia">YouTu
-be</a>
-<li><a href=
-"https://github.com/shapeai">GitHub</a>
+<a href="https://imyashgogia.github.io/Portfolio/"> <img src="https://github.com/imYashGogia/Portfolio/Assets/Readme_img/img.png"> </a>
+<a href="https://imyashgogia.github.io/Portfolio/"> <img src="https://github.com/imYashGogia/Portfolio/Assets/Readme_img/img2.png"> </a>
+<br>Table Of Content:
+<li>Introduction
+<li>Features
+<li>Technology Used
+<li>Contributing
+<li>Contact
 
+<br>
+<li><h1>Introduction</h1><br>
+In this portfolio project, I have created a website/portfolio to display my work, share information about myself, and provide a platform for potential clients or employers to get to know me better. It includes various sections highlighting my skills, projects I have worked on.
+<br>
+
+<li><h1>Features</h1><br>
+<ol>
+<li>Responsive design for seamless viewing on different devices and screen sizes.
+<li>About Me: A brief introduction and background information about myself.
+<li>Skills: A comprehensive list of my technical skills and areas of expertise.
+<li>Projects: Showcase of my past projects, including descriptions, images, and links.
+<li>Contact: A form for visitors to get in touch with me directly.
+</ol>
+<br>
+<li><h1>Technology Used</h1><br>
+<ol>
+<li>HTML
+<li>CSS
+<li>JAVASCRIPT
+<li>Bootstrap
+</ol>
+<br>
+<li><h1>Contributing</h1><br>
+I appreciate your interest in contributing to this project. If you have any suggestions, bug reports, or feature requests.
+<br>
+
+<h2>Thank you for visiting my portfolio project!<h2/>
+
+<li><a href=
+"https://linkedin.com/in/imyashgogia">LinkedIn</a>
