@@ -6,7 +6,8 @@ This repository contains my portfolio project, showcasing my skills, experience,
 
 <a href="https://imyashgogia.github.io/Portfolio/"> <img src="https://github.com/imYashGogia/Portfolio/blob/main/Assets/Readme_img/img1.png"> </a>
 <a href="https://imyashgogia.github.io/Portfolio/"> <img src="https://github.com/imYashGogia/Portfolio/blob/main/Assets/Readme_img/img2.png"> </a>
-<br>Table Of Content:
+<br>
+<h1>Table Of Content:
 <li>Introduction
 <li>Features
 <li>Technology Used
@@ -35,7 +36,7 @@ In this portfolio project, I have created a website/portfolio to display my work
 <li>Bootstrap
 </ol>
 <br>
-<h1>Contributing</h1><br>
+<h1>Contributing</h1>
 I appreciate your interest in contributing to this project. If you have any suggestions, bug reports, or feature requests.
 <br>
 
