@@ -4,8 +4,8 @@ Portfolio Webpage
 This repository contains my portfolio project, showcasing my skills, experience, and projects. It serves as an online resume and provides a comprehensive overview of my abilities as a Developer.
 
 
-<a href="https://imyashgogia.github.io/Portfolio/"> <img src="https://github.com/imYashGogia/Portfolio/Assets/Readme_img/img.png"> </a>
-<a href="https://imyashgogia.github.io/Portfolio/"> <img src="https://github.com/imYashGogia/Portfolio/Assets/Readme_img/img2.png"> </a>
+<a href="https://imyashgogia.github.io/Portfolio/"> <img src="https://github.com/imYashGogia/Portfolio/blob/main/Assets/Readme_img/img1.png"> </a>
+<a href="https://imyashgogia.github.io/Portfolio/"> <img src="https://github.com/imYashGogia/Portfolio/blob/main/Assets/Readme_img/img2.png"> </a>
 <br>Table Of Content:
 <li>Introduction
 <li>Features
@@ -14,11 +14,11 @@ This repository contains my portfolio project, showcasing my skills, experience,
 <li>Contact
 
 <br>
-<li><h1>Introduction</h1><br>
+<h1>Introduction</h1>
 In this portfolio project, I have created a website/portfolio to display my work, share information about myself, and provide a platform for potential clients or employers to get to know me better. It includes various sections highlighting my skills, projects I have worked on.
 <br>
 
-<li><h1>Features</h1><br>
+<h1>Features</h1>
 <ol>
 <li>Responsive design for seamless viewing on different devices and screen sizes.
 <li>About Me: A brief introduction and background information about myself.
@@ -27,7 +27,7 @@ In this portfolio project, I have created a website/portfolio to display my work
 <li>Contact: A form for visitors to get in touch with me directly.
 </ol>
 <br>
-<li><h1>Technology Used</h1><br>
+<h1>Technology Used</h1>
 <ol>
 <li>HTML
 <li>CSS
@@ -35,11 +35,11 @@ In this portfolio project, I have created a website/portfolio to display my work
 <li>Bootstrap
 </ol>
 <br>
-<li><h1>Contributing</h1><br>
+<h1>Contributing</h1><br>
 I appreciate your interest in contributing to this project. If you have any suggestions, bug reports, or feature requests.
 <br>
 
-<h2>Thank you for visiting my portfolio project!<h2/>
+<h3>Thank you for visiting my portfolio project!<h2/>
 
 <li><a href=
 "https://linkedin.com/in/imyashgogia">LinkedIn</a>
